@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Александр Мелков](https://up.htmlacademy.ru/htmlcss/31/user/1713749).
-* Наставник: [Аслан Березгов] (https://htmlacademy.ru/profile/id858779).
+* Наставник: [Аслан Березгов](https://htmlacademy.ru/profile/id858779).
 
 ---
 
