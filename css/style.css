@@ -1,0 +1,525 @@
+:root {
+  --basic-white: #FFFFFF;
+  --basic-dark-foooter1: #293449;
+  --basic-dark-footer2: #32425C;
+  --basic-white-footer: #F1F5F7;
+  --basic-red: #EE3643;
+  --bacic-popular-white: #F9F5F0;
+  --basic-dark: #000000;
+  --basic-yellow: #FFBF47;
+  --basic-sky: #3BBCE3;
+  --basic-purple: #DC91D8;
+  --basic-green: #8ED78F;
+  --basic-grey: #A9A9A9;
+  --basic-grey-ight:#C5C5C5;
+  --basic-green-footer: #63A63E;
+  --basic-green-footer-hover: #5FBB2D;
+  --basic-white-footer-click:rgba(255, 255, 255, 0.5);
+  --basic-dark-footer-active:  #161D29;
+  --basic-white-border: #EAEAEA;
+  --basic-yellow-footer: #FFD180;
+  --basic-white-footer: #F3F7F9;
+  --basic-white-price: #E5E5E5;
+
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT sans", sans-serif;
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-white);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header-top{
+  background-color: var(--basic-dark-foooter1);
+  font-family: "Cuprum", sans-serif;
+}
+
+.main-header-logo{
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  text-decoration: none;
+  border: 1px solid #000000;
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+}
+
+.header-order{
+  background-color: var(--basic-green-footer);
+}
+
+.search{
+  background-color: var(--basic-dark-foooter1);
+  border: none;
+  color: var(--basic-white);
+}
+
+.header-bookmark:active,
+.header-cart:active{
+  background-color: var(--basic-dark-footer-active);
+}
+
+.header-bookmark,
+.header-cart,
+.header-order {
+  color: var(--basic-white);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header-order:hover{
+  background-color: var(--basic-green-footer-hover);
+}
+
+.header-bookmark:hover,
+.header-cart:hover {
+  color: var(--basic-white)
+}
+
+.header-bottom {
+  background-color: var(--basic-white-footer);
+  font-family: "Cuprum", sans-serif;
+}
+
+.inf{
+  font-size: 16px;
+  line-height: 23px;
+  color: var(--basic-red);
+  font-style: italic;
+}
+
+.telephone {
+  font-size: 21px;
+  font-weight: 30px;
+  line-height: bold;
+  color: var(--basic-red);
+  font-style: normal;
+}
+
+.place {
+  color: var(--basic-dark-footer2);
+}
+
+.header-login-link,
+.header-registration{
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-dark);
+}
+
+.header-login-link:hover,
+.header-registration:hover{
+  color: var(--basic-red)
+}
+
+.header-login-link:active,
+.header-registration:active{
+  color:var(--basic-grey-ight);
+}
+
+.main-header-navigation{
+  background-color: var(--basic-dark-footer2);
+}
+
+.site-navigation {
+  font-family: "Cuprum", sans-serif;
+  list-style: none;
+}
+
+.site-navigation a{
+  font-size: 18px;
+  color: var(--basic-white);
+}
+
+.offers-item-p{
+  font-family: "Cuprum", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: var(--basic-white);
+}
+
+.offers-item-a {
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-white);
+}
+
+.features-items1{
+  height: 123px;
+  width: 300px;
+  background-color: var(--basic-yellow);
+}
+
+.features-items2{
+  height: 123px;
+  width: 300px;
+  background-color: var(--basic-sky);
+}
+
+.features-items3{
+  height: 123px;
+  width: 300px;
+  background-color: var(--basic-purple);
+}
+
+.features-items4{
+  height: 123px;
+  width: 300px;
+  background-color: var(--basic-green);
+}
+
+.features-items5{
+  height: 123px;
+  width: 300px;
+  background-color: var(--basic-yellow);
+}
+
+.red{
+  background-color: var(--basic-red);
+}
+
+.white{
+  color: var(--basic-white);
+}
+
+.popular-tovar{
+  font-family: "Cuprum", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-dark-footer2);
+}
+
+.popular{
+  background-color: var(--bacic-popular-white);
+}
+
+.all-popular {
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: var(--basic-red);
+  color: var(--basic-white);
+}
+
+.invisibility{
+  display: none;
+}
+
+.drill{
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--basic-dark);
+  font-weight: bold;
+}
+
+.cost{
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 18px;
+  color: var(--basic-grey);
+}
+
+.design{
+  height: 38px;
+  width: 141px;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  text-align: center;
+}
+
+.popular-price-item{
+  background-color: var(--basic-white);
+  border: 1px solid var(--basic-white-border);
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.background-manufacturer{
+  width: 220px;
+  height: 145px;
+  background-color: var(--basic-white);
+  border: 1px solid var(--basic-white-border);
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.company{
+  text-align: center;
+}
+
+.service{
+  font-family: "Cuprum", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-dark);
+}
+
+.information-people{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-dark);
+}
+
+.offers-tovar{
+  font-family: "Cuprum", sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.delivery{
+  color: var(--basic-dark-footer2);
+  background-color: var(--basic-white);
+}
+
+.warranty,
+.credit{
+  color: var(--basic-white);
+  background-color: var(--basic-dark-footer2);
+}
+
+
+.footer-top{
+  background-color: var(--basic-dark-footer2);
+}
+
+.footer-bottom{
+  background-color: var(--basic-dark-foooter1);
+}
+
+.heading{
+  font-family: "Cuprum", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-dark-footer2);
+}
+
+.information-for,
+.location-text{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-dark);
+}
+
+.buttom-credit{
+  height: 38px;
+  width: 195px;
+  background-color: var(--basic-red);
+}
+
+.buttom{
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-white);
+}
+
+.company-tehnomart{
+  font-family: "Cuprum", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-dark);
+  font-weight: 400;
+}
+
+.transportation{
+  list-style: none;
+}
+
+.transportation-services{
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-dark);
+}
+
+.buttom-information{
+  width: 220px;
+  height: 38px;
+  background-color: var(--basic-red);
+}
+
+.buttom-information-item{
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-white);
+  font-weight: 400;
+}
+
+.buttom-maps{
+  height: 38px;
+  width: 300px;
+  background-color: var(--basic-red);
+}
+
+.buttom-maps-text{
+  font-family: "Cuprum", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-white);
+}
+
+.place-footer,
+.telephone-footer{
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white-footer);
+}
+
+.site-navigation-footer{
+  list-style: none;
+}
+
+.site-navigation-footer a {
+  color: var(--basic-white-footer);
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  }
+
+.site-navigation-footer-two{
+  list-style: none;
+}
+
+.site-navigation-item-footer-two a {
+  font-family: "Cuprum", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-yellow-footer);
+}
+
+.rights,
+.feedback,
+.design-footer{
+  font-family: "Cuprum", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-white);
+}
+
+.htmlacademy,
+.mail-academy{
+  font-family: "Cuprum", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-yellow-footer);
+}
+
+.links-element{
+  font-family: "Cuprum", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-dark-footer2);
+}
+
+.navigation-for-price{
+  list-style: none;
+}
+
+.navigation-for-price a{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-dark);
+}
+
+.perforator-background{
+  color: var(--basic-white-footer);
+  min-width: 960;
+}
+
+.perforator-background-item {
+  font-family: "Cuprum", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--basic-dark-footer2);
+}
+
+.information-for-perfarator-main{
+  background-color: var(--basic-white-footer);
+}
+
+.information-for-perfarator{
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--basic-dark);
+}
+
+.information-for-perforator-item{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--basic-dark)
+}
+
+.order-item-red{
+  width: 38px;
+  height: 38px;
+  background-color: var(--basic-red);
+  margin-bottom: 10px;
+}
+
+.order-item-text-white{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-white);
+}
+
+.order-item{
+  width: 38px;
+  height: 38px;
+  background-color: var(--basic-white);
+  margin-bottom: 10px;
+  border: 1px solid var(--basic-white-price);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.order-items{
+  height: 38px;
+  width: 140px;
+  background-color: var(--basic-white);
+  border: 1px solid var(--basic-white-price);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.order-item-text{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-dark);
+}
+
+fa{
+  color:#000000;
+  display: none;
+}
