@@ -74,44 +74,42 @@
         <a href="#">Перфаратор</a>
       </li>
     </ul>
-    <div class="perforator-background">
       <h1 class="perforator-background-item">Перфараторы</h1>
-    </div>
     <aside>
       <form action="/filter" action="https://echo.htmlacademy.ru/courses" method="post">
-        <p>Фильтр</p>
-        <h3>Цена</h3>
+        <p class = "filter">Фильтр:</p>
+        <h3 class = "filter-manufacturer">Цена:</h3>
         <label>
           <input min="0" max="30000" type="range" step="1" value="10000">
           <input class=" catalog-min" type="text" value="0">
           <span class="catalog-minus">—</span>
           <input type="text" value="30 000">
         </label>
-        <h3>Производитель</h3>
+        <h3 class = "filter-manufacturer">Производители:</h3>
         <input class="1" name="Bosch" type="checkbox" checked>
-        <label for="1">Bosch</label>
+        <label for="1" class = "filter-manufacturer-item">Bosch</label>
         <input class="2" name="Интерскол" type="checkbox">
-        <label for="2">Интерскол</label>
+        <label for="2" class = "filter-manufacturer-item">Интерскол</label>
         <input class="3" name="Makita" type="checkbox" checked>
-        <label for="3">Makita</label>
+        <label for="3" class = "filter-manufacturer-item">Makita</label>
         <input class="4" name="DeWalt" type="checkbox">
-        <label for="4">DeWalt</label>
+        <label for="4" class = "filter-manufacturer-item">DeWalt</label>
         <input class="5" name="Hitachi" type="checkbox">
-        <label for="5">Hitachi</label>
-        <h3>Питание</h3>
+        <label for="5" class = "filter-manufacturer-item">Hitachi</label>
+        <h3 class = "filter-manufacturer">Питание</h3>
         <input calss="1a" name="Аккамуляторные" type="checkbox" checked>
-        <label for="1a">Аккамуляторные</label>
+        <label for="1a" class = "filter-manufacturer-item">Аккамуляторные</label>
         <input class="2a" name="Сетевые" type="checkbox">
-        <label for="2a">Сетевые</label>
-        <button type="submit">Показать</button>
+        <label for="2a" class = "filter-manufacturer-item">Сетевые</label>
+        <button type="submit" class = "buttom-see">Показать</button>
         </label>
       </form>
     </aside>
-    <section>
-      <span>Сортировка</span>
-      <a href="#">По цене</a>
-      <a href="#">По типу</a>
-      <a href="#">По функционалу</a>
+    <section class = "filter-for-search">
+      <span class = "filter">Сортировка:</span>
+      <a href="#" class = "filter-item">По цене</a>
+      <a href="#" class = "filter-item">По типу</a>
+      <a href="#" class = "filter-item">По функционалу</a>
     </section>
     <section>
       <div class="popular-price-item">

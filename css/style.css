@@ -20,6 +20,7 @@
   --basic-yellow-footer: #FFD180;
   --basic-white-footer: #F3F7F9;
   --basic-white-price: #E5E5E5;
+  --basic-filter-white: #F7F3EC;
 
 }
 
@@ -447,17 +448,13 @@ a{
   color: var(--basic-dark);
 }
 
-.perforator-background{
-  color: var(--basic-white-footer);
-  min-width: 960;
-}
-
 .perforator-background-item {
   font-family: "Cuprum", sans-serif;
   font-size: 30px;
   line-height: 30px;
   font-weight: 400;
   color: var(--basic-dark-footer2);
+  background-color: var(--basic-white-footer);
 }
 
 .information-for-perfarator-main{
@@ -519,6 +516,57 @@ a{
   color: var(--basic-dark);
 }
 
+.filter{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-dark);
+}
+
+.filter-for-search{
+  background-color: var(--basic-filter-white);
+}
+
+.filter-background{
+  width: 220px;
+  height: 38px;
+  color: var(--basic-filter-white);
+}
+
+.filter-item{
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-dark);
+}
+
+.filter-manufacturer {
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--basic-dark);
+}
+
+.filter-manufacturer-item{
+  font-family: "PT sans", sans-serif;
+  font-size: 15px;
+  line-height: 19px;
+  color: var(--basic-dark);
+}
+
+.buttom-see{
+  background-color: var(--basic-white);
+  font-family: "PT sans", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--basic-dark);
+  border: 1px solid var(--basic-white-price);
+  box-sizing: border-box;
+  width: 220px;
+  height: 38px;
+}
+/*
 fa{
   color:#000000;
   display: none;
