@@ -703,14 +703,15 @@ nav{
 
 
 .site-navigation .site-navigation-item {
-  padding-top: 16px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 16px 27px 20px 27px;
 }
 
 .site-navigation li:nth-child(1) .site-navigation-item:nth-child(1){
   padding-left: 54px;
+}
+
+.site-navigation li:last-child .site-navigation-item:last-child{
+  padding-right: 54px;
 }
 
 .site-navigation .site-navigation-item:hover{
@@ -1474,8 +1475,8 @@ nav{
   width: 169px;
   height: 31px;
   position: absolute;
-  top: 42px;
-  left: 31px;
+  top: 58px;
+  left: 28px;
 }
 
 .company-6{
@@ -1506,7 +1507,6 @@ nav{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 70px;
-  margin-left: 10px;
 }
 
 .service-item{
@@ -1551,7 +1551,6 @@ nav{
   position: relative;
   margin-right: 80px;
   width: 240px;
-  margin-left: 10px;
 }
 
 .offers-tovar-item{
@@ -1611,20 +1610,20 @@ nav{
   width: 619px;
   background-image: url("../img/layer1311.png");
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: 100% 100%;
 }
 
 .offers-information2{
   position: relative;
-  width: 619px;
+  width: 630px;
   background-image: url("../img/layer130.png");
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: 99% 0;
 }
 
 .offers-information3{
   position: relative;
-  width: 619px;
+  width: 630px;
   background-image: url("../img/layer119.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
@@ -1767,6 +1766,10 @@ nav .site-navigation-footer-two-item{
   width: 100%;
   margin-bottom: 30px;
   text-transform: uppercase;
+}
+
+.heading-1-margin{
+  margin-bottom: 24px;
 }
 
 .information-for2,
@@ -2702,7 +2705,7 @@ li .site-navigation-item-footer-two {
   background-repeat: no-repeat;
 }
 
-.filter-input-checkbox + label:hover:before{
+.filter-input-checkbox:not(:disabled) + label:hover:before{
   content: "";
   position: absolute;
   left: 0px;
@@ -2714,7 +2717,7 @@ li .site-navigation-item-footer-two {
   background-repeat: no-repeat;
 }
 
-.filter-input-checkbox:checked + label:hover:before {
+.filter-input-checkbox:checked:not(:disabled) + label:hover:before {
   content: "";
   position: absolute;
   top: -2px;
@@ -2726,7 +2729,7 @@ li .site-navigation-item-footer-two {
   background-repeat: no-repeat;
 }
 
-.filter-input-checkbox + label:active:before{
+.filter-input-checkbox:not(:disabled) + label:active:before{
   content: "";
   position: absolute;
   left: 0px;
@@ -2738,7 +2741,7 @@ li .site-navigation-item-footer-two {
   background-repeat: no-repeat;
 }
 
-.filter-input-checkbox:checked + label:active:before {
+.filter-input-checkbox:checked:not(:disabled) + label:active:before {
   content: "";
   position: absolute;
   top: -2px;
@@ -2746,30 +2749,6 @@ li .site-navigation-item-footer-two {
   width: 27px;
   height: 23px;
   background-image: url("../img/checkbox-on-activ.svg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-
-.filter-input-checkbox + label:disabled:before{
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: -2px;
-  width: 23px;
-  height: 23px;
-  background-image: url("../img/checkbox-off-chec.svg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-
-.filter-input-checkbox:checked + label:disabled:before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: 0px;
-  width: 27px;
-  height: 23px;
-  background-image: url("../img/checkbox-on-chek.png");
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -2790,7 +2769,7 @@ label:focus-visible:before{
   outline: 3px solid var(--focus-all);
 }
 
-.filter-manufacturer-item-radio:hover:before {
+.filter-input-radio:not(:disabled) + .filter-manufacturer-item-radio:hover:before {
   content: "";
   position: absolute;
   left: 0px;
@@ -2802,7 +2781,7 @@ label:focus-visible:before{
   background-repeat: no-repeat;
 }
 
-.filter-input-radio + label:active:before {
+.filter-input-radio:not(:disabled) + .filter-manufacturer-item-radio:active:before {
   content: "";
   position: absolute;
   left: 0px;
@@ -2825,7 +2804,7 @@ label:focus-visible:before{
   border-radius: 50%;
 }
 
-.filter-input-radio:checked + label:hover:after {
+.filter-input-radio:checked:not(:disabled) + label:hover:after {
   content: "";
   position: absolute;
   top: 6px;
@@ -2836,7 +2815,7 @@ label:focus-visible:before{
   border-radius: 50%;
 }
 
-.filter-input-radio:checked + label:active:after {
+.filter-input-radio:checked:not(:disabled) + label:active:after {
   content: "";
   position: absolute;
   top: 6px;
@@ -2844,29 +2823,6 @@ label:focus-visible:before{
   width: 9px;
   height: 9px;
   background-color: var(--purpl);
-  border-radius: 50%;
-}
-
-.filter-manufacturer-item-radio:disabled:before {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: -3px;
-  width: 25px;
-  height: 26px;
-  background-image: url("../img/radio-off-chek.svg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-
-.filter-input-radio:checked + label:disabled:after {
-  content: "";
-  position: absolute;
-  top: 6px;
-  left: 8px;
-  width: 9px;
-  height: 9px;
-  background-color: var(--grey-hover);
   border-radius: 50%;
 }
 
